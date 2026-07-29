@@ -9,3 +9,14 @@ Este é um projeto simples em Python desenvolvido para demonstrar como realizar 
 
 * **Python 3.8+**
 * **Bcrypt**: Biblioteca para derivação de chaves e hashing seguro.
+
+---
+
+## 📋 Pré-requisitos e Instalação
+
+Antes de executar o projeto, você precisa ter o Python instalado em sua máquina e instalar a dependência do projeto.
+
+1. Instale o `bcrypt` via terminal/PowerShell:
+   ```bash
+   pip install bcrypt
+   ```
