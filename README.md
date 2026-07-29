@@ -25,9 +25,9 @@ Antes de executar o projeto, você precisa ter o Python instalado em sua máquin
 ## 🛠️ Como Executar o Projeto
 
 
-1. Clone o repositório :
+1. Clone o repositório : git clone https://github.com/NkAndre/hash_password.git
    ```bash
-   cd c:/hashSenha
+    cd hash_password
    ```
 
 2. Execute o script principal:
@@ -36,3 +36,12 @@ Antes de executar o projeto, você precisa ter o Python instalado em sua máquin
    ```
 
 3. Siga as instruções na tela: digite uma senha para criptografar e, em seguida, digite-a novamente para testar a verificação de login.
+
+---
+
+## 📝 Como funciona o código?
+
+O `bcrypt` exige que os dados textuais (*strings*) sejam convertidos em blocos de dados binários (*bytes*). O script resolve isso utilizando a codificação UTF-8:
+
+* **Criptografia:** `senha.encode('utf-8')` transforma o texto em bytes antes de gerar o hash.
+* **Exibição:** `.decode('utf-8')` transforma o hash gerado de volta em texto legível para exibição no terminal.
