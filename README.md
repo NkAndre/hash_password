@@ -20,3 +20,19 @@ Antes de executar o projeto, você precisa ter o Python instalado em sua máquin
    ```bash
    pip install bcrypt
    ```
+---
+
+## 🛠️ Como Executar o Projeto
+
+
+1. Clone o repositório :
+   ```bash
+   cd c:/hashSenha
+   ```
+
+2. Execute o script principal:
+   ```bash
+   python main.py
+   ```
+
+3. Siga as instruções na tela: digite uma senha para criptografar e, em seguida, digite-a novamente para testar a verificação de login.
